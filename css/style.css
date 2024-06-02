@@ -1,0 +1,110 @@
+.parent{
+    position: fixed;
+    top: 30%;
+    left: 40%;
+    width: 340px;
+    height: 415px;
+    background-color: rgb(32, 32, 32);
+    border-radius: 2%;
+}
+
+.calc_nums{
+    position: absolute;
+    top: 2.5cm;
+    left: 24px;
+}
+
+.num{
+    width: 75px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    background-color:rgb(58, 57, 57);
+    border: 0px;
+    border-radius: 10%;
+
+    margin: 12px 18px 0px -15px;
+}
+
+.num:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+.num:active{
+    background-color: rgb(49, 49, 49);
+}
+
+.calc_operators{
+    position: absolute;
+    top: 6.1cm;
+    left: 270px;
+}
+
+.btn_oper{
+    width: 75px;
+    height: 50px;
+    color: aliceblue;
+    font-size: 20px;
+    background-color:rgb(58, 57, 57);
+    border: 0px;
+    border-radius: 10%;
+
+    margin: 18px 18px 0px -15px;
+}
+
+.btn_oper:hover{
+    background-color: rgb(68, 68, 68);
+}
+
+.btn_oper:active{
+    background-color: rgb(49, 49, 49);
+}
+
+.button_0{
+    width: 157px;
+    border-radius: 0.2cm;
+}
+
+.button_minus{
+    position: relative;
+    top: -3.77cm;
+}
+
+.button_plus{
+    position: relative;
+    top: -148px;
+    height: 112px;
+    border-radius: 0.2cm;
+}
+
+.button_equil{
+    position: relative;
+    top: -154px;
+    height: 112px;
+    border-radius: 0.2cm;
+    background-color: rgb(42, 86, 230);
+}
+
+.button_equil:hover{
+    background-color: rgb(18, 81, 255);
+}
+
+.button_equil:active{
+    background-color: rgb(255, 255, 255);
+    color: black;
+}
+
+/*Окно для вывода*/
+.input{
+    position: absolute;
+    background-color: rgb(46, 45, 45);
+    top: 3%;
+    left: 0.22cm;
+    width: 318px;
+    height: 80px;
+    color: aliceblue;
+    font-size: 25px;
+    border: 0;
+    border-radius:0.2cm;
+    text-align: right;
+}
